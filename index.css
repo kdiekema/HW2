@@ -1,8 +1,52 @@
 body { 
-	color:white;
-	background-color: #7799A6;
+	color:#0E7373;
+	background-color: #C1D0D9;
 	font-family: Veranda;}
-#welcome {color: black;}
-#image1 {color: black;}
-#image2 {color: black;}	
+.welcome{
+	border:10px #F26D85;
+	border-style: double;
+	width:500px;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
 	
+}
+	
+#image1 {
+	border: 1px #BF214B;
+	border-style: groove;
+	width: 28%;
+	color: #0E6973;
+	text-align:center;
+	float: left;
+	padding: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	}
+#image2 {	
+	border: 1px #0E6973;
+	border-style: groove;
+	width: 28%;
+	color: #BF214B;
+	text-align:center;
+	float: left;
+	padding: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	}	
+	
+.thanks{
+	width:70%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.resume{
+	background-color: white;
+	width:70%;
+	margin: 0 auto;
+	text-align: left;
+	padding: 20px;
+}
+#page {color: #F26D85; font-weight: bold; text-align: center;}
